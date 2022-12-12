@@ -1,8 +1,8 @@
-#Advent of code day 1
-##Task
+# Advent of code day 1
+## Task
 The Elves take turns writing down the number of Calories contained by the various meals, snacks, rations, etc. that they've brought with them, one item per line. Each Elf separates their own inventory from the previous Elf's inventory (if any) by a blank line.
 
-##description
+## description
 For example, suppose the Elves finish writing their items' Calories and end up with the following list:
 1000
 2000
@@ -30,5 +30,5 @@ In case the Elves get hungry and need extra snacks, they need to know which Elf 
 
 Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
 
-##About
+## About
 Check https://adventofcode.com/2022/day/1

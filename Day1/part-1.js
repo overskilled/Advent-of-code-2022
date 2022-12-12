@@ -32,31 +32,3 @@ array.sort(function(a, b) {
 let result = array.pop();
 
 console.log("The highest group carries "+result+" calories");
-
-
-
-/*
-// read file SYNCHRONOUSLY
-function FormatData(filename) {
-  const contents = readFileSync(filename, 'utf-8');
-  let result;
-  const arr = contents.split(/\r?\n\r\n/);
-   for(i = 0; i<arr.length ; i++){
-      arr[i] = arr[i].split("\r\n");
-      arr[i] = arr[i].map(function(str) {
-      return parseInt(str); });
-      arr[i] = arr[i].reduce(function(a, b){
-         return a + b;
-       });
-      
-   }
-   arr.sort(function(a, b){return a-b});
-   arr.reverse();
-   result = arr[0] + arr[1] + arr[2];
-   console.log(result);
-
-  return result;
-}
-
-FormatData('Day1/text.txt');
-*/
